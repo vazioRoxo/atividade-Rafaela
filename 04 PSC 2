@@ -1,0 +1,23 @@
+import java.util.Scanner;
+import java.util.*;
+
+
+public class Main {
+ 
+    public static void main(String[] args) {
+        Scanner ler = new Scanner(System.in);
+        int numero;
+
+        while(true){
+
+        System.out.println("informe um numero:");
+        numero = ler.nextInt();
+
+        System.out.println("O quadrado é"+ Math.pow(numero,2));
+        System.out.println("O quadrado é"+ Math.pow(numero,4));
+        System.out.println("O quadrado é"+ Math.sqrt(numero));
+        System.out.println("O negativo deste numero é");
+      
+      }
+    }
+  }
